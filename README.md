@@ -1,1 +1,1 @@
-Syndication Footer
+Syndication Header
