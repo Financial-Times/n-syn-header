@@ -5,9 +5,9 @@ node_modules/@financial-times/n-gage/index.mk:
 -include node_modules/@financial-times/n-gage/index.mk
 
 demo-build:
-	@rm -rf bower_components/n-syn-footer
-	@mkdir bower_components/n-syn-footer
-	@cp -r templates/ bower_components/n-syn-footer/templates/
+	@rm -rf bower_components/n-syn-header
+	@mkdir bower_components/n-syn-header
+	@cp -r templates/ bower_components/n-syn-header/templates/
 	@node-sass demos/src/demo.scss public/main.css --include-path bower_components
 	@$(DONE)
 

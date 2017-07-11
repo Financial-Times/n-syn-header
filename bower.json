@@ -1,7 +1,7 @@
 {
-  "name": "n-syn-footer",
-  "homepage": "https://github.com/financial-times/n-syn-footer",
-  "description": "Syndication Footer",
+  "name": "n-syn-header",
+  "homepage": "https://github.com/financial-times/n-syn-header",
+  "description": "Syndication header",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -13,6 +13,6 @@
     "n-ui-foundations": "^2.4.0"
   },
   "dependencies": {
-    "o-footer": "^6.0.1"
+    "o-header-services": "^2.0.1"
   }
 }
