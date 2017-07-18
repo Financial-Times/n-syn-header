@@ -1,11 +1,11 @@
 {
-  "name": "@financial-times/n-syn-footer",
+  "name": "@financial-times/n-syn-header",
   "version": "0.0.0",
-  "description": "Syndication Footer",
+  "description": "Syndication header",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Financial-Times/n-syn-footer.git"
+    "url": "git+https://github.com/Financial-Times/n-syn-header.git"
   },
   "license": "MIT",
   "dependencies": {},
