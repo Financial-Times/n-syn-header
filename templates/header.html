@@ -1,29 +1,37 @@
-<header class="o-header-services o-header-services--b2b" data-o-component="o-header">
+<a class="n-skip-link" href="https://www.ft.com/accessibility">Accessibility help</a>
+<a class="n-skip-link" href="#site-navigation">Skip to navigation</a>
+<a class="n-skip-link" href="#site-content">Skip to content</a>
+<a class="n-skip-link" href="#site-footer">Skip to footer</a>
+
+<header id="site-navigation" class="o-header-services o-header-services--b2b" data-o-component="o-header">
 	<div class="o-header-services__top o-header-services__container">
 		<div class="o-header-services__hamburger">
 			<a class="o-header-services__hamburger-icon" href="#o-header-drawer" aria-controls="o-header-drawer"><span class="o-header__visually-hidden">Menu</span></a>
 		</div>
 		<div class="o-header-services__ftlogo"></div>
 		<div class="o-header-services__title">
-			<h1 class="o-header-services__product-name"><a href="/">Syndication Platform</a></h1>
+			<h1 class="o-header-services__product-name"><a href="/contract" data-trackable="masthead">Syndication</a></h1>
+		</div>
+		<div class="o-header-services__related-content">
+			<a class="o-header-services__related-content-link" href="https://www.ft.com/" data-trackable="back-to-ft">< Back to FT.com</a>
 		</div>
 	</div>
 	<div class="o-header-services__primary-nav">
 		<div class="o-header-services__container">
 			<ul class="o-header-services__nav-list">
 				<li class="o-header-services__nav-item">
-					<a class="o-header-services__nav-link o-header-services__nav-link--selected" href="#">
+					<a id="nav-contract" class="o-header-services__nav-link{{#ifEquals route 'contract'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="menu-contract" href="/contract">
 						Contract Details
 					</a>
 				</li>
 				<li class="o-header-services__nav-item">
-					<a class="o-header-services__nav-link" href="#">
-						Downloaded Items
+					<a id="nav-saved" class="o-header-services__nav-link{{#ifEquals route 'save'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="menu-save" href="save">
+						Saved Items
 					</a>
 				</li>
 				<li class="o-header-services__nav-item">
-					<a class="o-header-services__nav-link" href="#">
-						Saved Items
+					<a id="nav-download" class="o-header-services__nav-link{{#ifEquals route 'download'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="menu-download" href="download">
+						Downloaded Items
 					</a>
 				</li>
 			</ul>
@@ -41,18 +49,18 @@
 		<nav class="o-header__drawer-menu o-header__drawer-menu--primary" role="navigation" aria-label="Primary navigation">
 			<ul class="o-header__drawer-menu-list">
 				<li class="o-header__drawer-menu-item">
-					<a class="o-header__drawer-menu-link" href="#">
+					<a id="drawer-contract" class="o-header__drawer-menu-link{{#ifEquals route 'contract'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="drawer-contract" href="/contract">
 						Contract Details
 					</a>
 				</li>
 				<li class="o-header__drawer-menu-item">
-					<a class="o-header__drawer-menu-link" href="#">
-						Downloaded Items
+					<a id="drawer-saved" class="o-header__drawer-menu-link{{#ifEquals route 'save'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="drawer-save" href="/save">
+						Saved Items
 					</a>
 				</li>
 				<li class="o-header__drawer-menu-item">
-					<a class="o-header__drawer-menu-link" href="#">
-						Saved Items
+					<a id="drawer-download" class="o-header__drawer-menu-link{{#ifEquals route 'download'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="drawer-download" href="/download">
+						Downloaded Items
 					</a>
 				</li>
 			</ul>
