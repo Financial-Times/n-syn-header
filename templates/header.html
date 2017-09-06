@@ -16,21 +16,21 @@
 			<a class="o-header-services__related-content-link" href="https://www.ft.com/" data-trackable="back-to-ft">< Back to FT.com</a>
 		</div>
 	</div>
-	<div class="o-header-services__primary-nav">
+	<div class="o-header-services__primary-nav" data-trackable="main-navigation">
 		<div class="o-header-services__container">
 			<ul class="o-header-services__nav-list">
 				<li class="o-header-services__nav-item">
-					<a id="nav-contract" class="o-header-services__nav-link{{#ifEquals route 'contract'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="menu-contract" href="/republishing/contract">
+					<a id="nav-contract" class="o-header-services__nav-link{{#ifEquals route 'contract'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="contract-details" href="/republishing/contract">
 						Contract Details
 					</a>
 				</li>
 				<li class="o-header-services__nav-item">
-					<a id="nav-saved" class="o-header-services__nav-link{{#ifEquals route 'save'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="menu-save" href="/republishing/save">
+					<a id="nav-saved" class="o-header-services__nav-link{{#ifEquals route 'save'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="saved-items" href="/republishing/save">
 						Saved Items
 					</a>
 				</li>
 				<li class="o-header-services__nav-item">
-					<a id="nav-download" class="o-header-services__nav-link{{#ifEquals route 'download'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="menu-download" href="/republishing/download">
+					<a id="nav-download" class="o-header-services__nav-link{{#ifEquals route 'download'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="downloaded-items" href="/republishing/download">
 						Downloaded Items
 					</a>
 				</li>
@@ -46,20 +46,20 @@
 				<span class="o-header__visually-hidden">Close</span>
 			</button>
 		</div>
-		<nav class="o-header__drawer-menu o-header__drawer-menu--primary" role="navigation" aria-label="Primary navigation">
+		<nav class="o-header__drawer-menu o-header__drawer-menu--primary" data-trackable="drawer" role="navigation" aria-label="Primary navigation">
 			<ul class="o-header__drawer-menu-list">
 				<li class="o-header__drawer-menu-item">
-					<a id="drawer-contract" class="o-header__drawer-menu-link{{#ifEquals route 'contract'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="drawer-contract" href="/republishing/contract">
+					<a id="drawer-contract" class="o-header__drawer-menu-link{{#ifEquals route 'contract'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="contract-details" href="/republishing/contract">
 						Contract Details
 					</a>
 				</li>
 				<li class="o-header__drawer-menu-item">
-					<a id="drawer-saved" class="o-header__drawer-menu-link{{#ifEquals route 'save'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="drawer-save" href="/republishing/save">
+					<a id="drawer-saved" class="o-header__drawer-menu-link{{#ifEquals route 'save'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="saved-items" href="/republishing/save">
 						Saved Items
 					</a>
 				</li>
 				<li class="o-header__drawer-menu-item">
-					<a id="drawer-download" class="o-header__drawer-menu-link{{#ifEquals route 'download'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="drawer-download" href="/republishing/download">
+					<a id="drawer-download" class="o-header__drawer-menu-link{{#ifEquals route 'download'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="downloaded-items" href="/republishing/download">
 						Downloaded Items
 					</a>
 				</li>
