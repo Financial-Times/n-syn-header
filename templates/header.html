@@ -34,6 +34,13 @@
 						Downloaded Items
 					</a>
 				</li>
+				{{#if user}}{{#if user.allowed.spanish}}
+				<li class="o-header-services__nav-item">
+					<a id="nav-spanish" class="o-header-services__nav-link{{#ifEquals route 'spanish'}} o-header-services__nav-link--selected{{/ifEquals}}" data-trackable="spanish-articles" href="/republishing/spanish">
+						Spanish Articles
+					</a>
+				</li>
+				{{/if}}{{/if}}
 			</ul>
 		</div>
 	</div>
@@ -63,6 +70,13 @@
 						Downloaded Items
 					</a>
 				</li>
+				{{#if user}}{{#if user.allowed.spanish}}
+				<li class="o-header__drawer-menu-item">
+					<a id="drawer-spanish" class="o-header__drawer-menu-link{{#ifEquals route 'spanish'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="spanish-articles" href="/republishing/spanish">
+						Spanish Articles
+					</a>
+				</li>
+				{{/if}}{{/if}}
 			</ul>
 		</nav>
 	</div>
