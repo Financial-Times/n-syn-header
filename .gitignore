@@ -6,3 +6,5 @@ bower_components/
 /pa11y_screenCapture/*
 
 *.env*
+.vscode
+package-lock.json*

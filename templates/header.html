@@ -45,39 +45,3 @@
 		</div>
 	</div>
 </header>
-<div class="o-header__drawer--services o-header__drawer o--if-js" id="o-header-drawer" data-o-header-drawer="" data-o-header-drawer--no-js="">
-	<div class="o-header__drawer-inner">
-		<div class="o-header__drawer-tools">
-			<span>Republishing Platform</span>
-			<button type="button" class="o-header__drawer-tools-close" aria-controls="o-header-drawer">
-				<span class="o-header__visually-hidden">Close</span>
-			</button>
-		</div>
-		<nav class="o-header__drawer-menu o-header__drawer-menu--primary" data-trackable="drawer" role="navigation" aria-label="Primary navigation">
-			<ul class="o-header__drawer-menu-list">
-				<li class="o-header__drawer-menu-item">
-					<a id="drawer-contract" class="o-header__drawer-menu-link{{#ifEquals route 'contract'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="contract-details" href="/republishing/contract">
-						Contract Details
-					</a>
-				</li>
-				<li class="o-header__drawer-menu-item">
-					<a id="drawer-saved" class="o-header__drawer-menu-link{{#ifEquals route 'save'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="saved-items" href="/republishing/save">
-						Saved Items
-					</a>
-				</li>
-				<li class="o-header__drawer-menu-item">
-					<a id="drawer-download" class="o-header__drawer-menu-link{{#ifEquals route 'download'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="downloaded-items" href="/republishing/download">
-						Downloaded Items
-					</a>
-				</li>
-				{{#if user}}{{#if user.allowed.spanish}}
-				<li class="o-header__drawer-menu-item">
-					<a id="drawer-spanish" class="o-header__drawer-menu-link{{#ifEquals route 'spanish'}} o-header__drawer-menu-link--selected{{/ifEquals}}" data-trackable="spanish-articles" href="/republishing/spanish">
-						Artículos en español
-					</a>
-				</li>
-				{{/if}}{{/if}}
-			</ul>
-		</nav>
-	</div>
-</div>
